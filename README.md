@@ -49,7 +49,7 @@ Settings: Logistic Regression (`max_iter=2000`), Decision Tree (`max_depth=12`),
 
 | ML Model Name | Observation about model performance |
 |---|---|
-| Logistic Regression | Best accuracy (95.5%) and MCC. The 561 engineered features are close to linearly separable, so a linear model suffices. Its only notable error is SITTING predicted as STANDING (58 cases). |
+| Logistic Regression | Best accuracy (95.5%) and MCC. The 561 engineered features are close to linearly separable, so a linear model suffices. Its main error is SITTING predicted as STANDING (57 cases). |
 | Decision Tree | 86.8% accuracy, the weakest AUC (0.917). A single tree splits on one feature at a time and overfits the many correlated features. It confuses sitting with standing and walking upstairs with walking. |
 | kNN | 88.9% accuracy with a high AUC (0.982). Distances in 561 dimensions are less informative, so it mixes up sitting/standing and the three walking classes. It is also the slowest at prediction time, and its saved model is the largest because it stores the training set. |
 | Naive Bayes | Lowest accuracy (77.0%) but a reasonable AUC (0.958). Its independence assumption fails badly on these highly correlated features, so its probabilities rank well while its hard decisions are often wrong. It misclassifies 211 LAYING samples as SITTING. |

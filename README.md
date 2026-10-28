@@ -1,6 +1,6 @@
 # Human Activity Recognition with Five Classifiers
 
-**Live app:** _<add Streamlit Community Cloud link>_
+**Live app:** https://har-activity-classifier-cjizfycjxtpyyz4brv8hwu.streamlit.app/
 
 ## a. Problem statement
 Classify what a person is doing (walking, climbing stairs, descending stairs, sitting, standing or lying) from the signals of a waist-mounted smartphone's accelerometer and gyroscope. This is a **6-class classification** problem. Five classical models are trained on the same data, compared on six metrics, and exposed through an interactive Streamlit app.

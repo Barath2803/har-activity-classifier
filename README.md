@@ -13,7 +13,7 @@ Classify what a person is doing (walking, climbing stairs, descending stairs, si
 - **Pre-processing:** the 561 raw columns are used as-is. Duplicate feature names in the original file were made unique with a numeric suffix. `StandardScaler` is applied inside the pipelines of Logistic Regression, kNN and SVM. Decision Tree and Naive Bayes use the raw values.
 
 ## c. GitHub repository
-_<add GitHub repository link>_
+https://github.com/Barath2803/har-activity-classifier
 
 ```
 har-activity-classifier/
